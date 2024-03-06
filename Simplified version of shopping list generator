@@ -1,0 +1,22 @@
+# Define items
+item "apple" price 1.50
+item "banana" price 0.50
+item "orange" price 1.20
+
+# Define stores
+store "Grocery Store" {
+    stock "apple" quantity 100
+    stock "banana" quantity 50
+}
+
+store "Fruit Stand" {
+    stock "apple" quantity 200
+    stock "orange" quantity 80
+}
+
+# Generate shopping list
+shopping_list {
+    buy "apple" from "Grocery Store" quantity 2
+    buy "banana" from "Fruit Stand" quantity 3
+    buy "orange" from "Fruit Stand" quantity 2
+}
