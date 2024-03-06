@@ -1,0 +1,28 @@
+destination "Paris" {
+    spot "Eiffel Tower" {
+        description "One of the most famous landmarks in Paris, standing about 300 meters tall."
+    }
+    spot "Louvre Museum" {
+        description "One of the world's largest art museums, housing countless precious artworks."
+    }
+}
+
+destination "Tokyo" {
+    spot "Tokyo Tower" {
+        description "One of Tokyo's iconic landmarks, standing about 333 meters tall."
+    }
+    spot "Senso-ji Temple" {
+        description "One of Tokyo's oldest Buddhist temples, with a long history and cultural heritage."
+    }
+}
+
+travel_plan {
+    visit "Paris" {
+        to_spot "Eiffel Tower"
+        to_spot "Louvre Museum"
+    }
+    visit "Tokyo" {
+        to_spot "Tokyo Tower"
+        to_spot "Senso-ji Temple"
+    }
+}
